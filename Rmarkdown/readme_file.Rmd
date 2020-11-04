@@ -127,10 +127,54 @@ After submiting the job, users will see a waiting page similar as
 
 <div style="margin-bottom:10px;">
 </div>
-```{r, waiting_page, out.width="70%", include=TRUE, fig.align="center", fig.cap=c(" "), echo=FALSE}
+```{r, waiting_page, out.width="50%", include=TRUE, fig.align="center", fig.cap=c(" "), echo=FALSE}
 library(knitr)
 knitr::include_graphics("waiting_page.png")
 ```
+
+<div style="margin-bottom:20px;">
+</div>
+
+The user is able to check the input information for the submitted job on the waiting page. Then, the user will be redirected to the model fitting result page if the job is successfully finished. The result page, as shown below, provided various informations.
+
+<div style="margin-bottom:10px;">
+</div>
+```{r, finish_page, out.width="50%", include=TRUE, fig.align="center", fig.cap=c(" "), echo=FALSE}
+library(knitr)
+knitr::include_graphics("finish.png")
+```
+<div style="margin-bottom:30px;">
+</div>
+
+* The estimated network structure (with a green edge represents a positive partial correlation while a red edge represents a negative partial correlation)
+* The model fitting results with the node and edge information for the network
+* The model fitting log file
+
+<div style="margin-bottom:10px;">
+</div>
+
+The main results are summarized into two .csv files. Below is the output from an example dataset.
+<div style="margin-bottom:10px;">
+</div>
+```{r, result_eg, out.width="50%", include=TRUE, fig.align="center", fig.cap=c(" "), echo=FALSE}
+library(knitr)
+knitr::include_graphics("result.png")
+```
+
+**Edge** information
+<div style="margin-bottom:10px;">
+</div>
+
+* First and second columns: The names of each connected taxa pair
+* Third column: Estimated partial correlation of the association between the taxa pair
+
+**Node** information
+<div style="margin-bottom:10px;">
+</div>
+
+* First column: Taxon name
+* Second column: Estimated mean abundances based on the ZINB-DPP model
+
 
 ## Download Package
 
