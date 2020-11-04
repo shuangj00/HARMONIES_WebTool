@@ -8,7 +8,7 @@ implementing HARMONIES with both front- and back-ends.
 
 <div class="figure" style="text-align: center">
 
-<img src="workflow.png" alt=" " width="90%" />
+<img src="https://github.com/shuangj00/HARMONIES_WebTool/blob/main/Rmarkdown/workflow.png" alt=" " width="90%" />
 
 <p class="caption">
 
