@@ -1,6 +1,9 @@
 ---
-title: " "
-output: html_document
+output:
+  github_document:
+    pandoc_args: --webtex
+header-includes:
+    - \usepackage{setspace}\doublespacing
 ---
 
 ```{r setup, include=FALSE}
