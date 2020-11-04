@@ -47,7 +47,7 @@ Three major steps of the online analysis:
 
 <div class="figure" style="text-align: center">
 
-<img src="https://github.com/shuangj00/HARMONIES_WebTool/blob/main/Rmarkdown/steps.png" alt=" " width="90%" />
+<img src="https://github.com/shuangj00/HARMONIES_WebTool/blob/main/Rmarkdown/steps.png" alt=" " width="100%" />
 
 <p class="caption">
 
@@ -166,7 +166,7 @@ example below).
 
 <div class="figure" style="text-align: left">
 
-<img src="https://github.com/shuangj00/HARMONIES_WebTool/blob/main/Rmarkdown/explain.png" alt=" " width="30%" />
+<img src="https://github.com/shuangj00/HARMONIES_WebTool/blob/main/Rmarkdown/explain.png" alt=" " width="50%" />
 
 <p class="caption">
 
@@ -192,7 +192,7 @@ After submiting the job, users will see a waiting page similar as
 
 <div class="figure" style="text-align: center">
 
-<img src="https://github.com/shuangj00/HARMONIES_WebTool/blob/main/Rmarkdown/waiting_page.png" alt=" " width="50%" />
+<img src="https://github.com/shuangj00/HARMONIES_WebTool/blob/main/Rmarkdown/waiting_page.png" alt=" " width="80%" />
 
 <p class="caption">
 
@@ -215,7 +215,7 @@ shown below, provided various informations.
 
 <div class="figure" style="text-align: center">
 
-<img src="https://github.com/shuangj00/HARMONIES_WebTool/blob/main/Rmarkdown/finish.png" alt=" " width="50%" />
+<img src="https://github.com/shuangj00/HARMONIES_WebTool/blob/main/Rmarkdown/finish.png" alt=" " width="80%" />
 
 <p class="caption">
 
